@@ -1,0 +1,38 @@
+body {
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+}
+#index {
+  text-align: center;
+  color:green;
+  font-size: 200%;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+  margin: 0;
+}
+#index a {
+    color: black;
+}
+@media (min-width:600px) {
+  .lot {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  .lot ul {
+    border-right: 1px solid gray;
+    margin: 0;
+    padding-top: 20px;
+  }
+  .lot .main {
+    padding: 40px;
+    padding-top: 35px;
+  }
+  .lot .main h2 {
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+  }
+
+}
